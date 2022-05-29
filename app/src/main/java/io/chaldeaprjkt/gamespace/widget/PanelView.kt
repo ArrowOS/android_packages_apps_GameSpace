@@ -15,6 +15,8 @@
  */
 package io.chaldeaprjkt.gamespace.widget
 
+import android.app.ActivityManager
+import android.app.ActivityManager.MemoryInfo
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
@@ -22,6 +24,7 @@ import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
 import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.core.view.doOnLayout
 import io.chaldeaprjkt.gamespace.R
 import io.chaldeaprjkt.gamespace.utils.dp
@@ -45,6 +48,17 @@ class PanelView @JvmOverloads constructor(
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
         applyRelativeLocation()
+        getMemory()
+    }
+
+    private fun getMemory() {
+        val mAm = context.getSystemService(Context.ACTIVITY_SERVICE) as ActivityManager
+        val memoryInfo:TextView = findViewById(R.id.memoryInfo)
+        val memInfo = MemoryInfo()
+        mAm.getMemoryInfo(memInfo)
+        val available = (memInfo.availMem / 1048576L).toInt()
+        val max = (memInfo.totalMem / 1048576L).toInt()
+        memoryInfo.text = "RAM: $available/$max MB"
     }
 
     private fun applyRelativeLocation() {
