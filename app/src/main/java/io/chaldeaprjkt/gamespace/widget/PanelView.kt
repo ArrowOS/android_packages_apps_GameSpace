@@ -18,6 +18,9 @@ package io.chaldeaprjkt.gamespace.widget
 import android.app.ActivityManager
 import android.app.ActivityManager.MemoryInfo
 import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.os.BatteryManager
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
@@ -49,6 +52,7 @@ class PanelView @JvmOverloads constructor(
         super.onAttachedToWindow()
         applyRelativeLocation()
         getMemory()
+        batteryTemperature()
     }
 
     private fun getMemory() {
@@ -59,6 +63,15 @@ class PanelView @JvmOverloads constructor(
         val available = (memInfo.availMem / 1048576L).toInt()
         val max = (memInfo.totalMem / 1048576L).toInt()
         memoryInfo.text = "RAM: $available/$max MB"
+    }
+
+    private fun batteryTemperature() {
+        val intent: Intent =
+            context.registerReceiver(null, IntentFilter(Intent.ACTION_BATTERY_CHANGED))!!
+        val temp = intent.getIntExtra(BatteryManager.EXTRA_TEMPERATURE, 0).toFloat() / 10
+        val degree = "\u2103"
+        val batteryTemp:TextView = findViewById(R.id.batteryTemp)
+        batteryTemp.text = "Temp: $temp$degree"
     }
 
     private fun applyRelativeLocation() {
