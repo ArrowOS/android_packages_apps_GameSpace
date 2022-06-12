@@ -43,7 +43,8 @@
         <com.arrow.support.preferences.SystemSettingSwitchPreference
             android:key="gamespace_suppress_fullscreen_intent"
             android:summary="@string/suppress_fullscreen_intent_summary"
-            android:title="@string/suppress_fullscreen_intent_title" />
+            android:title="@string/suppress_fullscreen_intent_title"
+	    android:defaultValue="false" />
 
         <SwitchPreference
             android:key="gamespace_auto_brightness_disabled"
