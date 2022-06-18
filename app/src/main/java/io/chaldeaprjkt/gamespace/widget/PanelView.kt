@@ -20,6 +20,7 @@ import android.app.ActivityManager.MemoryInfo
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
+import android.content.BroadcastReceiver
 import android.os.BatteryManager
 import android.util.AttributeSet
 import android.view.LayoutInflater
@@ -53,6 +54,7 @@ class PanelView @JvmOverloads constructor(
         applyRelativeLocation()
         getMemory()
         batteryTemperature()
+        getBatteryStat()
     }
 
     private fun getMemory() {
@@ -72,6 +74,20 @@ class PanelView @JvmOverloads constructor(
         val degree = "\u2103"
         val batteryTemp:TextView = findViewById(R.id.batteryTemp)
         batteryTemp.text = "Temp: $temp$degree"
+    }
+
+    private fun getBatteryStat() {
+        val sampleText:TextView = findViewById(R.id.batteryPct)
+        val mBatInfoReceiver: BroadcastReceiver = object : BroadcastReceiver() {
+            override fun onReceive(ctxt: Context, intent: Intent) {
+                val level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, -1)
+                val scale = intent.getIntExtra(BatteryManager.EXTRA_SCALE, -1)
+                val batteryPct = level * 100 / scale
+                sampleText.text = "Bat: $batteryPct%"
+            }
+        }
+
+        context.registerReceiver(mBatInfoReceiver, IntentFilter(Intent.ACTION_BATTERY_CHANGED))
     }
 
     private fun applyRelativeLocation() {
