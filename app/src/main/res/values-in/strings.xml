@@ -41,6 +41,8 @@
     <string name="fps_Info_title">Info FPS</string>
     <string name="stay_awake_title">Tetap terjaga</string>
     <string name="stay_awake_summary">Jaga agar layar tetap terjaga saat dalam game</string>
+    <string name="lock_gesture_title">Kunci gestur</string>
+    <string name="lock_gesture_summary">Nonaktifkan gestur navigasi (gestur kembali dan beranda) saat dalam game</string>
     <string name="ringer_mode_title">Mode dering</string>
     <string name="ringer_mode_silent">Senyap</string>
     <string name="ringer_mode_vibrate">Getar</string>
@@ -50,7 +52,7 @@
     <string name="per_app_title">Konfigurasi game</string>
     <string name="per_app_mode_title">Mode prioritas</string>
     <string name="per_app_angle_title">Gunakan ANGLE (eksperimental)</string>
-    <string name="per_app_angle_summary">Menggunakan perender ANGLE sebagai ganti driver GLES asli.\nPERINGATAN! Dapat merusak grafik game, gunakan dengan hati-hati!</string>
+    <string name="per_app_angle_summary">Menggunakan perender ANGLE sebagai ganti driver GLES asli, jika perangkat mendukung.\nPERINGATAN! Dapat merusak grafik game, gunakan dengan hati-hati!</string>
     <string name="cant_find_angle_pkg">ANGLE tidak tersedia di sistem Anda</string>
     <string name="per_app_unregister">Hapus %1$s dari pustaka</string>
     <string name="gamespace_menu_opacity_title">Tingkat opasitas hamparan menu</string>

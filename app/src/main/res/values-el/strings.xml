@@ -41,6 +41,8 @@
     <string name="fps_Info_title">Πληροφορίες FPS</string>
     <string name="stay_awake_title">Παραμονή σε λειτουργία</string>
     <string name="stay_awake_summary">Κρατήστε την οθόνη ενεργή όσο βρίσκεστε στο παιχνίδι</string>
+    <string name="lock_gesture_title">Κλείδωμα χειρονομίας</string>
+    <string name="lock_gesture_summary">Απενεργοποίηση χειρονομιών πλοήγησης (σύρσιμο πίσω και αρχική) κατά τη διάρκεια του παιχνιδιού</string>
     <string name="ringer_mode_title">Λειτουργία κουδουνίσματος</string>
     <string name="ringer_mode_silent">Αθόρυβο</string>
     <string name="ringer_mode_vibrate">Δόνηση</string>
@@ -50,7 +52,7 @@
     <string name="per_app_title">Διαμόρφωση παιχνιδιού</string>
     <string name="per_app_mode_title">Προτιμώμενη λειτουργία</string>
     <string name="per_app_angle_title">Χρήση ANGLE (πειραματικό)</string>
-    <string name="per_app_angle_summary">Χρήση του ANGLE renderer αντί των εγγενών προγραμμάτων οδήγησης GLES.\nΠΡΟΕΙΔΟΠΟΙΗΣΗ!! Μπορεί να χαλάσει τα γραφικά του παιχνιδιού, χρησιμοποιήστε με προσοχή!</string>
+    <string name="per_app_angle_summary">Χρήση του renderer ANGLE αντί για τους τοπικούς οδηγούς GLES, αν η συσκευή το υποστηρίζει.\nΠΡΟΕΙΔΟΠΟΙΗΣΗ!! Μπορεί να χαλάσει γραφικά παιχνιδιών, χρησιμοποιήστε με προσοχή!</string>
     <string name="cant_find_angle_pkg">Το ANGLE δεν είναι διαθέσιμο στο σύστημά σας</string>
     <string name="per_app_unregister">Αφαίρεση του %1$s από τη βιβλιοθήκη</string>
     <string name="gamespace_menu_opacity_title">Επίπεδο αδιαφάνειας μενού επικάλυψης</string>

@@ -41,6 +41,8 @@
     <string name="fps_Info_title">Informacje o FPS</string>
     <string name="stay_awake_title">Pozostaw ekran włączony</string>
     <string name="stay_awake_summary">Nie wyłączaj ekranu podczas gry</string>
+    <string name="lock_gesture_title">Lock gesture</string>
+    <string name="lock_gesture_summary">Disable navigation gestures (swipe back and home) while in-game</string>
     <string name="ringer_mode_title">Tryb dzwonka</string>
     <string name="ringer_mode_silent">Wyciszony</string>
     <string name="ringer_mode_vibrate">Wibracje</string>
@@ -50,7 +52,7 @@
     <string name="per_app_title">Skonfiguruj grę</string>
     <string name="per_app_mode_title">Preferowany tryb</string>
     <string name="per_app_angle_title">Użyj ANGLE (eksperymentalne)</string>
-    <string name="per_app_angle_summary">Używaj renderowania ANGLE zamiast natywnych kierowców GLES.\nOSTRZEŻENIE!! Może uszkodzić grafikę gry, używaj z ostrożnością!</string>
+    <string name="per_app_angle_summary">Using ANGLE renderer instead of native GLES drivers, if device support it.\nWARNING!! May breaks game graphics, use with caution!</string>
     <string name="cant_find_angle_pkg">ANGLE nie jest dostępne w Twoim systemie</string>
     <string name="per_app_unregister">Usuń %1$s z biblioteki</string>
     <string name="gamespace_menu_opacity_title">Poziom przezroczystości nakładki menu</string>

@@ -41,6 +41,8 @@
     <string name="fps_Info_title">Informace o FPS</string>
     <string name="stay_awake_title">Nevypínat obrazovku</string>
     <string name="stay_awake_summary">Nevypínat obrazovku během hraní</string>
+    <string name="lock_gesture_title">Zamknout gesta</string>
+    <string name="lock_gesture_summary">Vypnout navigační gesta (přejetím Zpět a Domů) během hry</string>
     <string name="ringer_mode_title">Režim vyzvánění</string>
     <string name="ringer_mode_silent">Tichý</string>
     <string name="ringer_mode_vibrate">Vibrace</string>
@@ -50,7 +52,7 @@
     <string name="per_app_title">Konfigurace hry</string>
     <string name="per_app_mode_title">Preferovaný režim</string>
     <string name="per_app_angle_title">Použít ANGLE (experimentální)</string>
-    <string name="per_app_angle_summary">Použití vykreslovače ANGLE místo nativních ovladačů GLES.\nPOZOR!! Může narušit grafiku při hraní, používejte s opatrností!</string>
+    <string name="per_app_angle_summary">Použití vykreslovače ANGLE místo nativních ovladačů GLES, pokud to zařízení podporuje.\nPOZOR!! Může narušit grafiku při hraní, používejte s opatrností!</string>
     <string name="cant_find_angle_pkg">Ve vašem systému není ANGLE k dispozici</string>
     <string name="per_app_unregister">Odebrat %1$s z knihovny</string>
     <string name="gamespace_menu_opacity_title">Úroveň průhlednosti překrytí menu</string>

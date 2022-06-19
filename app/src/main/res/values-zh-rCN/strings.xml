@@ -41,6 +41,8 @@
     <string name="fps_Info_title">FPS 信息</string>
     <string name="stay_awake_title">保持唤醒</string>
     <string name="stay_awake_summary">游戏中保持屏幕唤醒状态</string>
+    <string name="lock_gesture_title">手势锁定</string>
+    <string name="lock_gesture_summary">在游戏中禁用导航手势(滑动返回及切换到主屏)</string>
     <string name="ringer_mode_title">响铃模式</string>
     <string name="ringer_mode_silent">静音</string>
     <string name="ringer_mode_vibrate">振动</string>
@@ -50,7 +52,7 @@
     <string name="per_app_title">配置游戏</string>
     <string name="per_app_mode_title">首选模式</string>
     <string name="per_app_angle_title">使用 ANGLE 渲染器 (实验性)</string>
-    <string name="per_app_angle_summary">使用 ANGLE 渲染器以取代原本的 GLES 渲染器。\n警告!! 启用本选项可能会导致游戏图形崩溃, 请谨慎使用!</string>
+    <string name="per_app_angle_summary">如果设备支持，使用 ANGLE 渲染器取代原本的 GLES 驱动。\n警告!! 启用本选项可能会导致游戏图形崩溃, 请谨慎使用!</string>
     <string name="cant_find_angle_pkg">ANGLE 渲染器在当前系统中不可用</string>
     <string name="per_app_unregister">从游戏列表中移除 %1$s</string>
     <string name="gamespace_menu_opacity_title">游戏中菜单不透明度</string>

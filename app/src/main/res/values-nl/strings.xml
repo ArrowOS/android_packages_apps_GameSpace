@@ -41,6 +41,8 @@
     <string name="fps_Info_title">FPS info</string>
     <string name="stay_awake_title">Blijf wakker</string>
     <string name="stay_awake_summary">Houd scherm aan tijdens het spel</string>
+    <string name="lock_gesture_title">Vergrendelen gebaar</string>
+    <string name="lock_gesture_summary">Uitschakelen van navigatie gebaren (naar terug en thuis) tijdens het spel</string>
     <string name="ringer_mode_title">Beltoonmodus</string>
     <string name="ringer_mode_silent">Stil</string>
     <string name="ringer_mode_vibrate">Trillen</string>
@@ -50,7 +52,7 @@
     <string name="per_app_title">Spel configureren</string>
     <string name="per_app_mode_title">Voorkeursmodus</string>
     <string name="per_app_angle_title">Gebruik ANGLE (experimenteel)</string>
-    <string name="per_app_angle_summary">Gebruik ANGLE renderer in plaats van oorspronkelijke GLES drivers.\nWAARSCHUWING!! Kan spel afbeeldingen breken, gebruik met voorzichtigheid!</string>
+    <string name="per_app_angle_summary">Gebruik ANGLE renderer in plaats van oorspronkelijke GLES schroevendraaiers als het apparaat het ondersteunt.\nWAARSCHUWING!! Kan spel graphics onderbreken, gebruik met voorzichtigheid!</string>
     <string name="cant_find_angle_pkg">ANGLE is niet beschikbaar op uw systeem</string>
     <string name="per_app_unregister">Verwijder %1$s uit bibliotheek</string>
     <string name="gamespace_menu_opacity_title">Transparantieniveau van overlappingsmenu</string>

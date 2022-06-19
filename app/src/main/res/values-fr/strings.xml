@@ -41,6 +41,8 @@
     <string name="fps_Info_title">Infos FPS</string>
     <string name="stay_awake_title">Rester éveillé</string>
     <string name="stay_awake_summary">Garder l\'écran allumé pendant le jeu</string>
+    <string name="lock_gesture_title">Gestes de verrouillage</string>
+    <string name="lock_gesture_summary">Désactiver les gestes de navigation (glisser vers retour et home) pendant le jeu</string>
     <string name="ringer_mode_title">Mode de sonnerie</string>
     <string name="ringer_mode_silent">Silencieux</string>
     <string name="ringer_mode_vibrate">Vibration</string>

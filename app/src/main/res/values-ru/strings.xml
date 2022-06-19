@@ -41,6 +41,8 @@
     <string name="fps_Info_title">Информация о FPS</string>
     <string name="stay_awake_title">Не отключать экран</string>
     <string name="stay_awake_summary">Не отключать экран, пока вы в игре</string>
+    <string name="lock_gesture_title">Блокировать жесты</string>
+    <string name="lock_gesture_summary">Отключить жесты навигации (свайпы пальцем назад и домой) во время игры</string>
     <string name="ringer_mode_title">Режим звонка</string>
     <string name="ringer_mode_silent">Без звука</string>
     <string name="ringer_mode_vibrate">Вибрация</string>
@@ -50,7 +52,7 @@
     <string name="per_app_title">Настроить игру</string>
     <string name="per_app_mode_title">Предпочтительный режим</string>
     <string name="per_app_angle_title">Использовать ANGLE (эксперементально)</string>
-    <string name="per_app_angle_summary">Использование рендерера ANGLE вместо собственных драйверов GLES.\nВНИМАНИЕ!! Может ломать игровую графику, использовать с осторожностью!</string>
+    <string name="per_app_angle_summary">Использовать рендерер ANGLE вместо родных драйверов GLES, если устройство поддерживает его.\nВНИМАНИЕ!! Может ломать графику в играх, использовать с осторожностью!</string>
     <string name="cant_find_angle_pkg">ANGLE недоступен в вашей системе</string>
     <string name="per_app_unregister">Удалить %1$s из библиотеки</string>
     <string name="gamespace_menu_opacity_title">Уровень прозрачности меню игрового режима</string>

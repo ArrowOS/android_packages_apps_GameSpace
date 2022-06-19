@@ -41,6 +41,8 @@
     <string name="fps_Info_title">FPS Info</string>
     <string name="stay_awake_title">Nevypínať obrazovku</string>
     <string name="stay_awake_summary">Nevypínať obrazovku počas hry</string>
+    <string name="lock_gesture_title">Uzamknúť gestá</string>
+    <string name="lock_gesture_summary">Vypnúť navigáciu gestami (prejsť späť a domov) počas hry</string>
     <string name="ringer_mode_title">Režim zvonenia</string>
     <string name="ringer_mode_silent">Tichý</string>
     <string name="ringer_mode_vibrate">Vibrovať</string>
@@ -53,7 +55,7 @@
     <string name="per_app_angle_summary">Namiesto natívnych ovládačov GELS sa používa renderer ANGLE.\nUPOZORNENIE!! Môže narušiť grafiku hry, používajte opatrne!</string>
     <string name="cant_find_angle_pkg">ANGLE nie je vo vašom systéme k dispozícii</string>
     <string name="per_app_unregister">Odstrániť %1$s z knižnice</string>
-    <string name="gamespace_menu_opacity_title">Úroveň prehliadnosti prekrytia menu</string>
+    <string name="gamespace_menu_opacity_title">Úroveň priehľadnosti prekrytia menu</string>
     <string name="adb_disabled_summary">Dočasne deaktivujte ladenie USB ADB počas hry</string>
     <string name="adb_disabled_title">Zakázať ladenie USB</string>
 </resources>

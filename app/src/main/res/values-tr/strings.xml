@@ -41,6 +41,8 @@
     <string name="fps_Info_title">FPS bilgisi</string>
     <string name="stay_awake_title">Uyanık kal</string>
     <string name="stay_awake_summary">Oyundayken ekranı uyanık tutun</string>
+    <string name="lock_gesture_title">Hareketi kilitle</string>
+    <string name="lock_gesture_summary">Oyundayken gezinme (geri ve ana ekran) kaydırma hareketlerini devre dışı bırakın</string>
     <string name="ringer_mode_title">Zil modu</string>
     <string name="ringer_mode_silent">Sessiz</string>
     <string name="ringer_mode_vibrate">Titreşim</string>
@@ -50,7 +52,7 @@
     <string name="per_app_title">Oyunu yapılandır</string>
     <string name="per_app_mode_title">Tercih edilen mod</string>
     <string name="per_app_angle_title">ANGLE kullan (deneysel)</string>
-    <string name="per_app_angle_summary">Yerel GLES sürücüleri yerine ANGLE oluşturucu kullan.\nUYARI!! Oyun grafiklerini bozabilir, dikkatli kullanın!</string>
+    <string name="per_app_angle_summary">Cihaz destekliyorsa, yerel GLES sürücüleri yerine ANGLE oluşturucu kullan.\nUYARI!! Oyun grafiklerini bozabilir, dikkatli kullanın!</string>
     <string name="cant_find_angle_pkg">ANGLE sisteminizde mevcut değil</string>
     <string name="per_app_unregister">%1$s arşivden kaldır</string>
     <string name="gamespace_menu_opacity_title">Arayüz menüsü şeffaflık seviyesi</string>
