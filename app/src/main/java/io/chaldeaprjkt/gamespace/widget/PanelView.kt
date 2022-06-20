@@ -64,7 +64,7 @@ class PanelView @JvmOverloads constructor(
         mAm.getMemoryInfo(memInfo)
         val available = (memInfo.availMem / 1048576L).toInt()
         val max = (memInfo.totalMem / 1048576L).toInt()
-        memoryInfo.text = "RAM: $available/$max MB"
+        memoryInfo.text = "$available/$max MB"
     }
 
     private fun batteryTemperature() {
@@ -73,7 +73,7 @@ class PanelView @JvmOverloads constructor(
         val temp = intent.getIntExtra(BatteryManager.EXTRA_TEMPERATURE, 0).toFloat() / 10
         val degree = "\u2103"
         val batteryTemp:TextView = findViewById(R.id.batteryTemp)
-        batteryTemp.text = "Temp: $temp$degree"
+        batteryTemp.text = "$temp$degree"
     }
 
     private fun getBatteryStat() {
@@ -83,7 +83,7 @@ class PanelView @JvmOverloads constructor(
                 val level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, -1)
                 val scale = intent.getIntExtra(BatteryManager.EXTRA_SCALE, -1)
                 val batteryPct = level * 100 / scale
-                sampleText.text = "Bat: $batteryPct%"
+                sampleText.text = "$batteryPct%"
             }
         }
 

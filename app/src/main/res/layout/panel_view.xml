@@ -36,13 +36,14 @@
             android:gravity="center_vertical"
             android:text="@string/settings_title"
             android:textSize="24sp"
-            android:drawableStart="@drawable/gaming_icon" />
+            android:drawableStart="@drawable/gaming_icon" 
+            android:drawablePadding="4dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginVertical="3dp">
 
             <TextView
                 android:id="@+id/memoryInfo"
@@ -50,23 +51,25 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-light"
-                android:gravity="start"
-                android:textSize="12sp" />
+                android:gravity="start|center_vertical"
+                android:textSize="12sp"
+                android:drawableStart="@drawable/ic_memory"
+                android:drawablePadding="4dp" />
 
             <TextClock
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:fontFamily="sans-serif-light"
-                android:gravity="end"
-                android:textSize="12sp" />
+                android:gravity="end|center_vertical"
+                android:textSize="12sp"
+                android:drawableStart="@drawable/ic_clock"
+                android:drawablePadding="4dp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="5dp"
             android:orientation="horizontal">
 
             <TextView
@@ -75,17 +78,20 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-light"
-                android:gravity="start"
-                android:textSize="12sp" />
+                android:gravity="start|center_vertical"
+                android:textSize="12sp" 
+                android:drawableStart="@drawable/ic_temperature"
+                android:drawablePadding="4dp"/>
 
             <TextView
                 android:id="@+id/batteryPct"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:fontFamily="sans-serif-light"
-                android:gravity="end"
-                android:textSize="12sp" />
+                android:gravity="end|center_vertical"
+                android:textSize="12sp"
+                android:drawableStart="@drawable/ic_battery"
+                android:drawablePadding="4dp" />
 
         </LinearLayout>
 
