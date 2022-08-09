@@ -18,25 +18,18 @@
 <resources>
     <string name="settings_title">فضای بازی</string>
     <string name="settings_summary">تنظیمات بازی خود را مدیریت کنید</string>
-    <string name="app_selector_label">بازی خود را انتخاب کنید</string>
+    <!-- Game options -->
     <string name="auto_brightness_disabled_title">غیرفعالسازی روشنایی خودکار</string>
     <string name="auto_brightness_disabled_summary">روشنایی در هنگام بازی ثابت می‌ماند</string>
     <string name="heads_up_disabled_title">غیرفعالسازی حالت مواظب باش</string>
     <string name="heads_up_disabled_summary">اعلان‌های بالاپر در حین بازی ممنوع است</string>
     <string name="in_game_preferences_title">گزینه های درون بازی</string>
-    <string name="game_list_title">مجموعه</string>
-    <string name="game_remove_message">آیا مطمئن هستید که می خواهید %1$s را از مجموعه خود حذف کنید؟</string>
-    <string name="app_search_title">جستجو</string>
     <string name="three_screenshot_disabled_summary">غیرفعالسازی موقت حالت گرفتن اسکرین‌شات با سه انگشت در زمان بازی</string>
     <string name="three_screenshot_disabled_title">غیرفعالسازی گرفتن اسکرین شات با کشیدن انگشت</string>
     <string name="state_enabled">فعال شد</string>
     <string name="state_disabled">غیرفعال شد</string>
-    <!-- Game Mode -->
-    <string name="game_mode_title">حالت</string>
-    <string name="game_mode_unsupported">پشتیبانی نشده</string>
-    <string name="game_mode_standard">استاندارد</string>
-    <string name="game_mode_performance">کارایی</string>
-    <string name="game_mode_battery">باتری</string>
+    <string name="adb_disabled_summary">در حین بازی اشکال زدایی USB ADB را به طور موقت غیرفعال کنید</string>
+    <string name="adb_disabled_title">غیرفعال کردن اشکال زدایی USB</string>
     <string name="heads_up_title">مواظب باش</string>
     <string name="fps_Info_title">اطلاعات FPS</string>
     <string name="stay_awake_title">بیدار ماندن</string>
@@ -47,15 +40,26 @@
     <string name="ringer_mode_silent">بی‌صدا</string>
     <string name="ringer_mode_vibrate">ﻟﺮﺯﺵ</string>
     <string name="ringer_mode_normal">عادی</string>
+    <string name="ringer_mode_no_change">بدون تغییر</string>
     <string name="suppress_fullscreen_intent_title">مسدود کردن رویداد تمام صفحه</string>
     <string name="suppress_fullscreen_intent_summary">از نمایش رویدادهای تمام صفحه مانند تماس های دریافتی در حین بازی جلوگیری کنید</string>
+    <string name="gamespace_menu_opacity_title">سطح شفافیت منوی همپوشانی</string>
+    <!-- Game picker -->
+    <string name="game_list_title">مجموعه</string>
+    <string name="game_list_add_title">افزودن</string>
+    <string name="app_selector_label">بازی خود را انتخاب کنید</string>
+    <string name="app_search_title">جستجو</string>
+    <string name="game_remove_message">آیا مطعن هستید که میخواهید {0} را از لیست بازی های خود حذف کنید؟</string>
+    <!-- Game Mode -->
+    <string name="game_mode_title">حالت</string>
+    <string name="game_mode_unsupported">پشتیبانی نشده</string>
+    <string name="game_mode_standard">استاندارد</string>
+    <string name="game_mode_performance">کارایی</string>
+    <string name="game_mode_battery">باتری</string>
     <string name="per_app_title">پیکربندی بازی</string>
     <string name="per_app_mode_title">حالت ترجیحی</string>
     <string name="per_app_angle_title">استفاده از ANGLE (آزمایشی)</string>
     <string name="per_app_angle_summary">استفاده از رندر ANGLE به جای درایورهای GLES بومی، اگر دستگاه از آن پشتیبانی کند.\nهشدار!! ممکن است گرافیک بازی را خراب کند، با احتیاط استفاده کنید!</string>
     <string name="cant_find_angle_pkg">ANGLE در سیستم شما در دسترس نیست</string>
     <string name="per_app_unregister">%1$s را از مجموعه حذف کنید</string>
-    <string name="gamespace_menu_opacity_title">سطح شفافیت منوی همپوشانی</string>
-    <string name="adb_disabled_summary">در حین بازی اشکال زدایی USB ADB را به طور موقت غیرفعال کنید</string>
-    <string name="adb_disabled_title">غیرفعال کردن اشکال زدایی USB</string>
 </resources>
