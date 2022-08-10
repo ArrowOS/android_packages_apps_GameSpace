@@ -18,25 +18,18 @@
 <resources>
     <string name="settings_title">Game Space</string>
     <string name="settings_summary">Gestisci la tua configurazione di gioco</string>
-    <string name="app_selector_label">Scegli il tuo gioco</string>
+    <!-- Game options -->
     <string name="auto_brightness_disabled_title">Disabilita luminosità automatica</string>
     <string name="auto_brightness_disabled_summary">Mantieni la luminosità regolata durante il gioco</string>
     <string name="heads_up_disabled_title">Disattiva heads up</string>
     <string name="heads_up_disabled_summary">Disabilita le notifiche popup durante il gioco</string>
     <string name="in_game_preferences_title">Opzioni in gioco</string>
-    <string name="game_list_title">Libreria</string>
-    <string name="game_remove_message">Sei sicuro di voler rimuovere %1$s dalla tua libreria?</string>
-    <string name="app_search_title">Cerca</string>
     <string name="three_screenshot_disabled_summary">Disabilita temporaneamente il gesto dello screenshot a tre dita durante il gioco</string>
     <string name="three_screenshot_disabled_title">Disabilita gesto per lo screenshot</string>
-    <string name="state_enabled">abilitato</string>
-    <string name="state_disabled">disabilitato</string>
-    <!-- Game Mode -->
-    <string name="game_mode_title">Modalità</string>
-    <string name="game_mode_unsupported">Non supportato</string>
-    <string name="game_mode_standard">Predefinito</string>
-    <string name="game_mode_performance">Alte prestazioni</string>
-    <string name="game_mode_battery">Batteria</string>
+    <string name="state_enabled">Enabled</string>
+    <string name="state_disabled">Disabled</string>
+    <string name="adb_disabled_summary">Disabilita temporaneamente il debug ADB USB durante il gioco</string>
+    <string name="adb_disabled_title">Disabilita il debug USB</string>
     <string name="heads_up_title">Notifiche a comparsa</string>
     <string name="fps_Info_title">Info FPS</string>
     <string name="stay_awake_title">Resta attivo</string>
@@ -47,15 +40,26 @@
     <string name="ringer_mode_silent">Silenzioso</string>
     <string name="ringer_mode_vibrate">Vibrazione</string>
     <string name="ringer_mode_normal">Normale</string>
+    <string name="ringer_mode_no_change">Do not change</string>
     <string name="suppress_fullscreen_intent_title">Blocca evento a schermo intero</string>
     <string name="suppress_fullscreen_intent_summary">Evitare che vengano visualizzati eventi a schermo intero come le chiamate in arrivo durante il gioco</string>
+    <string name="gamespace_menu_opacity_title">Livello di opacità del menù in gioco</string>
+    <!-- Game picker -->
+    <string name="game_list_title">Libreria</string>
+    <string name="game_list_add_title">Add</string>
+    <string name="app_selector_label">Scegli il tuo gioco</string>
+    <string name="app_search_title">Cerca</string>
+    <string name="game_remove_message">Are you sure you want to remove %1$s from your game list?</string>
+    <!-- Game Mode -->
+    <string name="game_mode_title">Modalità</string>
+    <string name="game_mode_unsupported">Non supportato</string>
+    <string name="game_mode_standard">Predefinito</string>
+    <string name="game_mode_performance">Alte prestazioni</string>
+    <string name="game_mode_battery">Batteria</string>
     <string name="per_app_title">Configura gioco</string>
     <string name="per_app_mode_title">Modalità preferita</string>
     <string name="per_app_angle_title">Usa ANGLE (sperimentale)</string>
     <string name="per_app_angle_summary">Utilizzo del renderer ANGLE invece dei driver GLES nativi, se il dispositivo lo supporta.\nATTENZIONE!! Può danneggiare la grafica del gioco, usare con cautela!</string>
     <string name="cant_find_angle_pkg">ANGLE non è disponibile sul tuo sistema</string>
     <string name="per_app_unregister">Rimuovi %1$s dalla libreria</string>
-    <string name="gamespace_menu_opacity_title">Livello di opacità del menù in gioco</string>
-    <string name="adb_disabled_summary">Disabilita temporaneamente il debug ADB USB durante il gioco</string>
-    <string name="adb_disabled_title">Disabilita il debug USB</string>
 </resources>

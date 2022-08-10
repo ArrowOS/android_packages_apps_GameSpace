@@ -18,25 +18,18 @@
 <resources>
     <string name="settings_title">Game Space</string>
     <string name="settings_summary">Gerir a sua configuração de jogos</string>
-    <string name="app_selector_label">Escolha o seu jogo</string>
+    <!-- Game options -->
     <string name="auto_brightness_disabled_title">Desativar brilho automático</string>
     <string name="auto_brightness_disabled_summary">Manter o brilho ativo durante o jogo</string>
     <string name="heads_up_disabled_title">Desativar notificações flutuantes</string>
     <string name="heads_up_disabled_summary">Desativar notificações flutuantes enquanto estiver a jogar</string>
     <string name="in_game_preferences_title">Opções do jogo</string>
-    <string name="game_list_title">Biblioteca</string>
-    <string name="game_remove_message">Tem certeza de que deseja remover %1$s da sua biblioteca?</string>
-    <string name="app_search_title">Pesquisar</string>
     <string name="three_screenshot_disabled_summary">Desativar temporariamente o gesto de deslizar três dedos para capturar ecrã enquanto estiver a jogar</string>
     <string name="three_screenshot_disabled_title">Desativar deslizar para capturar ecrã</string>
-    <string name="state_enabled">ativo</string>
-    <string name="state_disabled">desactivado</string>
-    <!-- Game Mode -->
-    <string name="game_mode_title">Modo</string>
-    <string name="game_mode_unsupported">Não Suportado</string>
-    <string name="game_mode_standard">Padrão</string>
-    <string name="game_mode_performance">Desempenho</string>
-    <string name="game_mode_battery">Bateria</string>
+    <string name="state_enabled">Ativado</string>
+    <string name="state_disabled">Desativado</string>
+    <string name="adb_disabled_summary">Desativar temporariamente a depuração USB ADB durante o jogo</string>
+    <string name="adb_disabled_title">Desativar depuração USB</string>
     <string name="heads_up_title">Notificações</string>
     <string name="fps_Info_title">Informação de FPS</string>
     <string name="stay_awake_title">Manter ativo</string>
@@ -47,15 +40,26 @@
     <string name="ringer_mode_silent">Silencioso</string>
     <string name="ringer_mode_vibrate">Vibrar</string>
     <string name="ringer_mode_normal">Normal</string>
+    <string name="ringer_mode_no_change">Não alterar</string>
     <string name="suppress_fullscreen_intent_title">Bloquear eventos em ecrã inteiro</string>
     <string name="suppress_fullscreen_intent_summary">Impedir que eventos em ecrã inteiro como chamadas recebidas apareçam durante o jogo</string>
+    <string name="gamespace_menu_opacity_title">Nível de opacidade do menu sobreposto</string>
+    <!-- Game picker -->
+    <string name="game_list_title">Biblioteca</string>
+    <string name="game_list_add_title">Adicionar</string>
+    <string name="app_selector_label">Escolha o seu jogo</string>
+    <string name="app_search_title">Pesquisar</string>
+    <string name="game_remove_message">Tem certeza que deseja remover %1$s da sua lista de jogos?</string>
+    <!-- Game Mode -->
+    <string name="game_mode_title">Modo</string>
+    <string name="game_mode_unsupported">Não Suportado</string>
+    <string name="game_mode_standard">Padrão</string>
+    <string name="game_mode_performance">Desempenho</string>
+    <string name="game_mode_battery">Bateria</string>
     <string name="per_app_title">Configurar jogo</string>
     <string name="per_app_mode_title">Modo preferido</string>
     <string name="per_app_angle_title">Usar ANGLE (experimental)</string>
     <string name="per_app_angle_summary">A usar o renderizador ANGLE em vez de controladores GLES nativos.\nAVISO!! Pode distorcer os gráficos do jogo, use com cuidado!</string>
     <string name="cant_find_angle_pkg">ANGLE não está disponível no seu sistema</string>
     <string name="per_app_unregister">Remover %1$s da biblioteca</string>
-    <string name="gamespace_menu_opacity_title">Nível de opacidade do menu sobreposto</string>
-    <string name="adb_disabled_summary">Desativar temporariamente a depuração USB ADB durante o jogo</string>
-    <string name="adb_disabled_title">Desativar depuração USB</string>
 </resources>

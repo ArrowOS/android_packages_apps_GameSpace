@@ -18,25 +18,18 @@
 <resources>
     <string name="settings_title">Espacio de juego</string>
     <string name="settings_summary">Administra tu configuración de juegos</string>
-    <string name="app_selector_label">Elige tu juego</string>
+    <!-- Game options -->
     <string name="auto_brightness_disabled_title">Desactivar brillo automático</string>
     <string name="auto_brightness_disabled_summary">Mantener el brillo durante el juego</string>
     <string name="heads_up_disabled_title">Desactivar notificaciones flotantes</string>
     <string name="heads_up_disabled_summary">No permitir notificaciones emergentes durante el juego</string>
     <string name="in_game_preferences_title">Opciones de juego</string>
-    <string name="game_list_title">Biblioteca</string>
-    <string name="game_remove_message">¿Estás seguro de que quieres eliminar %1$s de tu biblioteca?</string>
-    <string name="app_search_title">Buscar</string>
     <string name="three_screenshot_disabled_summary">Deshabilita temporalmente el gesto de captura de pantalla con tres dedos durante el juego</string>
     <string name="three_screenshot_disabled_title">Desactivar deslizar para captura de pantalla</string>
-    <string name="state_enabled">habilitado</string>
-    <string name="state_disabled">deshabilitado</string>
-    <!-- Game Mode -->
-    <string name="game_mode_title">Modo</string>
-    <string name="game_mode_unsupported">No soportado</string>
-    <string name="game_mode_standard">Estándar</string>
-    <string name="game_mode_performance">Rendimiento</string>
-    <string name="game_mode_battery">Batería</string>
+    <string name="state_enabled">Habilitado</string>
+    <string name="state_disabled">Desabilitado</string>
+    <string name="adb_disabled_summary">Deshabilita temporalmente la depuración USB ADB durante el juego</string>
+    <string name="adb_disabled_title">Desactivar depuración USB</string>
     <string name="heads_up_title">Notificaciones flotantes</string>
     <string name="fps_Info_title">Info de FPS</string>
     <string name="stay_awake_title">Permanecer despierto</string>
@@ -47,15 +40,26 @@
     <string name="ringer_mode_silent">Silencio</string>
     <string name="ringer_mode_vibrate">Vibrar</string>
     <string name="ringer_mode_normal">Normal</string>
+    <string name="ringer_mode_no_change">No cambiar</string>
     <string name="suppress_fullscreen_intent_title">Bloquear eventos en pantalla completa</string>
     <string name="suppress_fullscreen_intent_summary">Evitar que eventos de pantalla completa como llamadas entrantes aparezcan durante el juego</string>
+    <string name="gamespace_menu_opacity_title">Nivel de opacidad del menú de superposición</string>
+    <!-- Game picker -->
+    <string name="game_list_title">Biblioteca</string>
+    <string name="game_list_add_title">Añadir</string>
+    <string name="app_selector_label">Elige tu juego</string>
+    <string name="app_search_title">Buscar</string>
+    <string name="game_remove_message">¿Estás seguro de que quieres eliminar a %1$s de tu lista de juegos?</string>
+    <!-- Game Mode -->
+    <string name="game_mode_title">Modo</string>
+    <string name="game_mode_unsupported">No soportado</string>
+    <string name="game_mode_standard">Estándar</string>
+    <string name="game_mode_performance">Rendimiento</string>
+    <string name="game_mode_battery">Batería</string>
     <string name="per_app_title">Configurar juego</string>
     <string name="per_app_mode_title">Modo preferido</string>
     <string name="per_app_angle_title">Usar ANGLE (experimental)</string>
     <string name="per_app_angle_summary">Usando renderizador ANGLE en lugar de controladores GLES nativos, si el dispositivo lo soporta.\n¡¡¡ADVERTENCIA! Puede romper gráficos del juego, ¡úsalo con precaución!</string>
     <string name="cant_find_angle_pkg">ANGLE no está disponible en su sistema</string>
     <string name="per_app_unregister">Eliminar %1$s de la biblioteca</string>
-    <string name="gamespace_menu_opacity_title">Nivel de opacidad del menú de superposición</string>
-    <string name="adb_disabled_summary">Deshabilita temporalmente la depuración USB ADB durante el juego</string>
-    <string name="adb_disabled_title">Desactivar depuración USB</string>
 </resources>

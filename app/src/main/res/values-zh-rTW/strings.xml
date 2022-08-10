@@ -18,27 +18,20 @@
 <resources>
     <string name="settings_title">遊戲空間</string>
     <string name="settings_summary">管理您的遊戲設定</string>
-    <string name="app_selector_label">挑選遊戲</string>
+    <!-- Game options -->
     <string name="auto_brightness_disabled_title">關閉自動亮度</string>
     <string name="auto_brightness_disabled_summary">在遊戲中保持亮度穩定</string>
     <string name="heads_up_disabled_title">關閉浮動通知</string>
     <string name="heads_up_disabled_summary">在遊戲中禁止彈出通知</string>
     <string name="in_game_preferences_title">遊戲內選項</string>
-    <string name="game_list_title">Library</string>
-    <string name="game_remove_message">您確定要將 %1$s 從遊戲庫移除嗎？</string>
-    <string name="app_search_title">搜尋</string>
-    <string name="three_screenshot_disabled_summary">在遊戲中暫時停用滑動截圖手勢</string>
+    <string name="three_screenshot_disabled_summary">在遊戲中暫時停用三指截圖手勢</string>
     <string name="three_screenshot_disabled_title">停用滑動截圖手勢</string>
     <string name="state_enabled">已啟用</string>
     <string name="state_disabled">已停用</string>
-    <!-- Game Mode -->
-    <string name="game_mode_title">模式</string>
-    <string name="game_mode_unsupported">不支援</string>
-    <string name="game_mode_standard">一般</string>
-    <string name="game_mode_performance">高效能</string>
-    <string name="game_mode_battery">省電</string>
+    <string name="adb_disabled_summary">在遊戲中暫時停用 USB ADB 偵錯</string>
+    <string name="adb_disabled_title">停用 USB 偵錯</string>
     <string name="heads_up_title">浮動通知</string>
-    <string name="fps_Info_title">幀數</string>
+    <string name="fps_Info_title">FPS 資訊</string>
     <string name="stay_awake_title">螢幕保持開啟</string>
     <string name="stay_awake_summary">在遊戲中時使螢幕保持開啟狀態</string>
     <string name="lock_gesture_title">鎖定手勢</string>
@@ -47,15 +40,26 @@
     <string name="ringer_mode_silent">靜音</string>
     <string name="ringer_mode_vibrate">震動</string>
     <string name="ringer_mode_normal">一般</string>
+    <string name="ringer_mode_no_change">不變更</string>
     <string name="suppress_fullscreen_intent_title">封鎖全螢幕活動</string>
-    <string name="suppress_fullscreen_intent_summary">防止如電話等的應用程式彈出全螢幕畫面</string>
+    <string name="suppress_fullscreen_intent_summary">遊戲中防止彈出全螢幕事件，例如來電</string>
+    <string name="gamespace_menu_opacity_title">overlay 選單不透明度</string>
+    <!-- Game picker -->
+    <string name="game_list_title">遊戲庫</string>
+    <string name="game_list_add_title">新增</string>
+    <string name="app_selector_label">挑選遊戲</string>
+    <string name="app_search_title">搜尋</string>
+    <string name="game_remove_message">確定將 %1$s 從遊戲列表移除嗎？</string>
+    <!-- Game Mode -->
+    <string name="game_mode_title">模式</string>
+    <string name="game_mode_unsupported">不支援</string>
+    <string name="game_mode_standard">一般</string>
+    <string name="game_mode_performance">高效能</string>
+    <string name="game_mode_battery">省電</string>
     <string name="per_app_title">遊戲選項</string>
     <string name="per_app_mode_title">偏好模式</string>
     <string name="per_app_angle_title">使用 ANGLE （實驗性功能）</string>
-    <string name="per_app_angle_summary">裝置支援時，使用 ANGLE 渲染畫面而非原生的 GLES 驅動。\n警告！遊戲畫面可能出現破圖等現象，請謹慎使用。</string>
-    <string name="cant_find_angle_pkg">您的系統不支援 ANGLE</string>
+    <string name="per_app_angle_summary">若裝置有支援，則使用 ANGLE 繪製器（renderer）而非原生的 GLES 驅動程式。\n警告！！可能破壞遊戲畫面顯示，請謹慎使用！</string>
+    <string name="cant_find_angle_pkg">在您的系統上找不到／無法使用 ANGLE</string>
     <string name="per_app_unregister">從遊戲庫中移除 %1$s</string>
-    <string name="gamespace_menu_opacity_title">不透明度</string>
-    <string name="adb_disabled_summary">在遊戲中暫時停用 USB 偵錯</string>
-    <string name="adb_disabled_title">停用 USB 偵錯</string>
 </resources>
