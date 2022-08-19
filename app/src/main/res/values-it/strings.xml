@@ -26,8 +26,8 @@
     <string name="in_game_preferences_title">Opzioni in gioco</string>
     <string name="three_screenshot_disabled_summary">Disabilita temporaneamente il gesto dello screenshot a tre dita durante il gioco</string>
     <string name="three_screenshot_disabled_title">Disabilita gesto per lo screenshot</string>
-    <string name="state_enabled">Enabled</string>
-    <string name="state_disabled">Disabled</string>
+    <string name="state_enabled">Abilitato</string>
+    <string name="state_disabled">Disabilitato</string>
     <string name="adb_disabled_summary">Disabilita temporaneamente il debug ADB USB durante il gioco</string>
     <string name="adb_disabled_title">Disabilita il debug USB</string>
     <string name="heads_up_title">Notifiche a comparsa</string>
@@ -40,16 +40,16 @@
     <string name="ringer_mode_silent">Silenzioso</string>
     <string name="ringer_mode_vibrate">Vibrazione</string>
     <string name="ringer_mode_normal">Normale</string>
-    <string name="ringer_mode_no_change">Do not change</string>
+    <string name="ringer_mode_no_change">Non cambiare</string>
     <string name="suppress_fullscreen_intent_title">Blocca evento a schermo intero</string>
     <string name="suppress_fullscreen_intent_summary">Evitare che vengano visualizzati eventi a schermo intero come le chiamate in arrivo durante il gioco</string>
     <string name="gamespace_menu_opacity_title">Livello di opacità del menù in gioco</string>
     <!-- Game picker -->
     <string name="game_list_title">Libreria</string>
-    <string name="game_list_add_title">Add</string>
+    <string name="game_list_add_title">Aggiungi</string>
     <string name="app_selector_label">Scegli il tuo gioco</string>
     <string name="app_search_title">Cerca</string>
-    <string name="game_remove_message">Are you sure you want to remove %1$s from your game list?</string>
+    <string name="game_remove_message">Sei sicuro di voler rimuovere %1$s dalla tua lista dei giochi?</string>
     <!-- Game Mode -->
     <string name="game_mode_title">Modalità</string>
     <string name="game_mode_unsupported">Non supportato</string>

@@ -17,20 +17,20 @@
 -->
 <resources>
     <string name="settings_title">Ігровий простір</string>
-    <string name="settings_summary">Керування налаштуваннями гри</string>
+    <string name="settings_summary">Налаштування ігрових можливостей</string>
     <!-- Game options -->
-    <string name="auto_brightness_disabled_title">Вимкнути автояскравість</string>
+    <string name="auto_brightness_disabled_title">Вимкнути автоматичну яскравість</string>
     <string name="auto_brightness_disabled_summary">Не змінювати яскравість під час гри</string>
-    <string name="heads_up_disabled_title">Вимкнути спливаючі сповіщення</string>
+    <string name="heads_up_disabled_title">Вимкнути спливаючі вікна</string>
     <string name="heads_up_disabled_summary">Заборонити спливаючі сповіщення під час гри</string>
     <string name="in_game_preferences_title">Параметри гри</string>
-    <string name="three_screenshot_disabled_summary">Вимкнути свайп для скриншоту під час гри</string>
-    <string name="three_screenshot_disabled_title">Вимкнути свайп для скриншоту</string>
+    <string name="three_screenshot_disabled_summary">Тимчасово вимкнути жест трьома пальцями для скріншоту під час гри</string>
+    <string name="three_screenshot_disabled_title">Вимкнути свайп для скріншоту</string>
     <string name="state_enabled">Увімкнено</string>
     <string name="state_disabled">Вимкнено</string>
-    <string name="adb_disabled_summary">Вимкнути налагодження по USB під час гри</string>
-    <string name="adb_disabled_title">Вимкнути налагодження по USB</string>
-    <string name="heads_up_title">Спливвючі сповіщення</string>
+    <string name="adb_disabled_summary">Тимчасово вимкнути USB-налагодження під час гри</string>
+    <string name="adb_disabled_title">Вимкнути USB-налагодження</string>
+    <string name="heads_up_title">Спливаючі вікна</string>
     <string name="fps_Info_title">Інформація про FPS</string>
     <string name="stay_awake_title">Не вимикати екран</string>
     <string name="stay_awake_summary">Залишати екран увімкненим під час гри</string>
@@ -43,7 +43,7 @@
     <string name="ringer_mode_no_change">Не змінювати</string>
     <string name="suppress_fullscreen_intent_title">Блокувати повноекранні сповіщення</string>
     <string name="suppress_fullscreen_intent_summary">Запобігає появі повноекранних сповіщень, таких як вхідні дзвінки, під час гри</string>
-    <string name="gamespace_menu_opacity_title">Рівень непрозорості меню перекриття</string>
+    <string name="gamespace_menu_opacity_title">Рівень прозорості меню ігрового режиму</string>
     <!-- Game picker -->
     <string name="game_list_title">Бібліотека</string>
     <string name="game_list_add_title">Додати</string>
